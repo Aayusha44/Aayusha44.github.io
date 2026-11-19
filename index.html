@@ -14,12 +14,12 @@
             padding: 40px 20px;
         }
         h1 { margin-bottom: 5px; font-size: 32px; text-align: center; }
-        h2 { 
-            font-size: 14px; 
-            text-transform: uppercase; 
-            border-bottom: 2px solid #333; 
-            padding-bottom: 3px; 
-            margin-top: 25px; 
+        h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #333;
+            padding-bottom: 3px;
+            margin-top: 25px;
             margin-bottom: 12px;
             letter-spacing: 1px;
         }
@@ -32,117 +32,36 @@
         .item-sub { font-style: italic; font-size: 13px; color: #555; margin-bottom: 5px; }
         ul { margin-top: 5px; margin-bottom: 5px; padding-left: 20px; font-size: 14px; }
         li { margin-bottom: 4px; }
-        .link { color: #0056b3; text-decoration: none; font-weight: bold; font-size: 13px;}
+        .link { color: #0056b3; text-decoration: none; font-weight: bold; font-size: 13px; }
         .link:hover { text-decoration: underline; }
-        .skills-list { list-style-type: none; padding-left: 0; font-size: 14px;}
+        .skills-list { list-style-type: none; padding-left: 0; font-size: 14px; }
         .skills-list li { margin-bottom: 8px; }
+        @media print { body { padding: 0 10px; } a { color: #333; } }
     </style>
 </head>
 <body>
 
-  <div class="header-info">
-      <h1>Aayusha Bhatta</h1>
-    Kathmandu, Nepal | +977-9741660252 |
-    <a href="mailto:aayushabhatta4444@gmail.com">aayushabhatta4444@gmail.com</a><br>
-    <a href="https://www.linkedin.com/in/aayusha-bhatta-0a6491254" target="_blank">linkedin.com/in/aayusha-bhatta-0a6491254</a> |
-    <a href="https://github.com/Aayusha44" target="_blank">github.com/Aayusha44</a>
-</div>
+    <div class="header-info">
+        <h1>Aayusha Bhatta</h1>
+        Kathmandu, Nepal | +977-9741660252 |
+        <a href="mailto:aayushabhatta4444@gmail.com">aayushabhatta4444@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/aayusha-bhatta-0a6491254" target="_blank">linkedin.com/in/aayusha-bhatta-0a6491254</a> |
+        <a href="https://github.com/Aayusha44" target="_blank">github.com/Aayusha44</a>
+    </div>
 
-    <h2>Professional Summary</h2>
+    <h2>Research Interests</h2>
     <div class="profile">
-        Motivated Computer Engineering graduate (IOE - KEC) with hands-on experience in web development, machine learning, and cybersecurity. Research-published at a national conference, with demonstrated experience in penetration testing, automated testing frameworks, and data visualization. Consistently improving academic trajectory (top semester at 90%). A self-driven, research-oriented professional eager to contribute technical skills and grow within a dynamic software development environment.
-    </div>
-
-    <h2>Work Experience</h2>
-
-    <div class="item">
-        <div class="item-header">
-            <span>Software Developer</span>
-            <span>Aug 2026 - Present</span>
-        </div>
-        <div class="item-sub">SOFTWEL (P)Ltd | Kathmandu, Nepal</div>
-        <ul>
-            <li>Contribute to software development for an Asian Development Bank (ADB) funded initiative supporting Nepal's agriculture and irrigation sector, aligned with ADB's irrigation modernization and community-managed agriculture projects.</li>
-            <li>Migrating an existing legacy application to a modern cross-platform desktop UI using Avalonia (C#/.NET).</li>
-        <li>Learning Avalonia's XAML-based UI, MVVM pattern, and data binding by rebuilding existing screens and logic in the new framework for IRAP.</li>
-        </ul>
-    </div>
-
-    <h2>Research Experience</h2>
-    
-    <div class="item">
-        <div class="item-header">
-            <span>Research Collaborator (Remote)</span>
-            <span>Aug 2026 - Present</span>
-        </div>
-        <div class="item-sub">Wayne State University | Advisor: <a href="https://engineering.wayne.edu/profile/hw6926" class="link" target="_blank">Prof. Lihui Liu</a></div>
-        <ul>
-            <li>Conducted a comprehensive literature survey on Intelligent Recommendation Systems in Education.</li>
-            <li>Drafted a 50-paper survey with 9 sections, applying PRISMA methodology for systematic review and citation management.</li>
-            <li>Collaborating on manuscript preparation for upcoming publication.</li>
-        </ul>
-    </div>
-
-    <div class="item">
-        <div class="item-header">
-            <span>OMAMA-DB Breast Cancer Detection</span>
-            <span><a href="https://github.com/Aayusha44/OMAMA-DB-Breast-Cancer-Detection" class="link" target="_blank">[GitHub Repo]</a></span>
-        </div>
-        <div class="item-sub">UMass Boston (Machine Psychology Lab) | Independent Research Project</div>
-        <ul>
-            <li>Built a study-level multiview classification pipeline using the OMAMA-DB dataset.</li>
-            <li>Refactored single-view baseline to group 4 views (CC/MLO) per study, stacking them into a 4-channel tensor (Early Fusion).</li>
-            <li>Applied ROI cropping using JSON metadata to eliminate background artifacts, jumping validation accuracy from 66.60% to 99.40%.</li>
-        </ul>
-    </div>
-
-    <h2>Academic Projects</h2>
-
-    <div class="item">
-        <div class="item-header">
-            <span>MediPredict - Multiple Disease Prediction System</span>
-            <span><a href="https://github.com/Aayusha44/Medipredictfinal" class="link" target="_blank">[GitHub Repo]</a></span>
-        </div>
-        <div class="item-sub">Final Year Major Project | Role: Flask Backend & Frontend Developer</div>
-        <ul>
-            <li>Led the Flask backend and frontend development for an ML-powered web app predicting diabetes, heart disease, and Parkinson's disease.</li>
-            <li>Integrated classification algorithms achieving high prediction accuracy; collaborated on model selection and data pipeline design.</li>
-            <li>Research paper presented at KHWOPA CEEL 2026 National Conference, Bhaktapur, Nepal (February 2026).</li>
-        </ul>
-    </div>
-
-    <div class="item">
-        <div class="item-header">
-            <span>Churn It - Customer Retention Prediction Model</span>
-            <span>2024</span>
-        </div>
-        <div class="item-sub">3rd Year Minor Project | Role: Frontend Developer</div>
-        <ul>
-            <li>Developed the frontend interface (HTML/CSS) for a customer churn prediction web app built for a Nepali company.</li>
-            <li>Collaborated with team members handling ML models (Random Forest, XGBoost) to integrate backend predictions into the frontend display.</li>
-        </ul>
+        Reliability and security of AI-assisted software engineering; how large language models interpret real-world inputs such as bug reports; trustworthy machine learning, including data quality, robustness, and why model performance varies across datasets.
     </div>
 
     <h2>Education</h2>
     <div class="item">
         <div class="item-header">
-            <span>B.Tech - Computer Science & Engineering</span>
+            <span>Bachelor of Engineering (BE) in Computer Engineering</span>
             <span>2022 - 2026</span>
         </div>
-        <div class="item-sub">Kathmandu Engineering College (KEC) / IOE, TU | Overall Aggregate: 78.78%</div>
+        <div class="item-sub">Kathmandu Engineering College (KEC), Institute of Engineering (IOE), Tribhuvan University, Nepal</div>
         <ul>
-            <li><b>Semester Performance:</b> I: 62.48%, II: 79.08%, III: 69.94%, IV: 78.89%, V: 77.60%, VI: 83.54%, VII: 80.48%, VIII: 90.00% (Topper)</li>
-            <li>+2 Science GPA: 3.4/4.0 | SEE GPA: 3.8/4.0</li>
-        </ul>
-    </div>
-
-    <h2>Technical Skills</h2>
-    <ul class="skills-list">
-        <li><b>Languages & Web:</b> Python, JavaScript, C, HTML, CSS, SQL, C# (Avalonia)</li>
-        <li><b>AI / Machine Learning:</b> PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Random Forest, XGBoost, NLP Fundamentals</li>
-        <li><b>Frameworks & Tools:</b> Flask, Avalonia UI, React (learning), Git, Linux, Power BI, Excel</li>
-        <li><b>Security:</b> Penetration Testing, Vulnerability Assessment, Security Test Automation</li>
-    </ul>
-
-</body>
-</html>
+            <li><b>Aggregate:</b> 78.75% | <b>Final semester:</b> 90.00%, ranked 1st in department</li>
+            <li><b>Semester trend:</b> I: 62.48%, II: 79.08%, III: 69.94%, IV: 78.89%, V: 77.60%, VI: 83.54%, VII: 80.48%, VIII: 90.00%</li>
+            <li><b>Relevant
