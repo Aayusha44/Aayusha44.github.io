@@ -51,7 +51,7 @@
 
     <h2>Research Interests</h2>
     <div class="profile">
-        What AI coding tools rely on when they repair code, and when their suggestions can be trusted: LLM-based program repair, reliability and security of AI-assisted software engineering, and how data quality affects model reliability.
+        Applied machine learning and deep learning for healthcare and biology, including medical image analysis, clinical risk prediction, and ML for genomic and health data. I am especially interested in how data quality, preprocessing, and evaluation choices decide whether a model's results can be trusted, a question that also carries over to AI-assisted software engineering.
     </div>
 
     <h2>Education</h2>
@@ -64,7 +64,7 @@
         <ul>
             <li><b>Aggregate:</b> 78.75% | <b>Final semester:</b> 90.00%, ranked 1st in department</li>
             <li><b>Semester trend:</b> I: 62.48%, II: 79.08%, III: 69.94%, IV: 78.89%, V: 77.60%, VI: 83.54%, VII: 80.48%, VIII: 90.00%</li>
-            <li><b>Relevant coursework:</b> Software Engineering, Artificial Intelligence, Data Warehousing &amp; Business Intelligence, Big Data Technologies (Hadoop, MapReduce, NoSQL, Elasticsearch)</li>
+            <li><b>Relevant coursework:</b> Artificial Intelligence, Software Engineering, Data Warehousing &amp; Business Intelligence, Big Data Technologies (Hadoop, MapReduce, NoSQL, Elasticsearch)</li>
             
         </ul>
     </div>
@@ -104,6 +104,7 @@
             <li>Started this project after MediPredict's accuracy changed from one small tabular dataset to another, chose a larger, better-documented imaging dataset to see how a more reliable dataset changes results.</li>
             <li>Built a study-level PyTorch pipeline that groups the four mammogram views (CC/MLO, left/right) per study into a 4-channel early-fusion input to a pretrained ResNet18.</li>
             <li>Compared single-view, ROI-cropped, and multiview fusion setups, using ROI metadata and Z-score normalization.</li>
+            <li>Found that the ROI and multiview accuracies (98.58%, 99.40%, up from a 66.60% baseline) were likely inflated because only cancer views were cropped. Documented the issue and planned fixes: matching preprocessing for both classes, patient-level splits, and sensitivity/specificity/AUC.</li>
         </ul>
     </div>
 
@@ -150,11 +151,11 @@
 
     <h2>Technical Skills</h2>
     <ul class="skills-list">
-        <li><b>Languages:</b> C#, C, SQL, HTML/CSS, Python(basic)</li>
         <li><b>Machine Learning:</b> PyTorch, scikit-learn, Random Forest, XGBoost, CNNs (ResNet); basic: TensorFlow, Pandas, NumPy, NLP fundamentals</li>
+        <li><b>Languages:</b> C#, C, SQL, HTML/CSS, Python (basic)</li>
         <li><b>Software Engineering:</b> Blazor, Avalonia UI (XAML/MVVM), .NET, Git, legacy code migration</li>
-        <li><b>Security &amp; Testing:</b> Penetration testing, vulnerability assessment, security test automation, software testing</li>
         <li><b>Data:</b> Power BI, Excel, dimensional modelling (star/snowflake schema)</li>
+        <li><b>Security &amp; Testing:</b> Penetration testing, vulnerability assessment, security test automation, software testing</li>
     </ul>
 
     <h2>Certifications</h2>
